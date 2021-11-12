@@ -12,7 +12,7 @@ export const Nav = styled.nav`
 
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #e9ba23;
   text-shadow: 2px 2px 4px #000000;
   font-size: 2rem;
   display: flex;
@@ -26,9 +26,6 @@ export const NavLink = styled(Link)`
     top: 10px;
     left: 25px;
   }
-  &:hover {
-    color: #e9ba23;
-  }
 `;
 
 
@@ -38,15 +35,12 @@ export const NavIcon = styled.div`
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #fff;
+  color: #e9ba23;
   
   p {
     transform: translate(-175%, 100%);
     font-size: 1.2rem;
     text-shadow: 2px 2px 4px #000000;
-  }
-  &:hover {
-    color: #e9ba23;
   }
 `;
 
