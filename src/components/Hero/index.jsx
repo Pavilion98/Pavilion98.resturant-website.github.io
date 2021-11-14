@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
-import Navbar from '../Navbar';
-import Sidebar from '../Sidebar';
+import Navbar from '../Navbar/index';
+import Sidebar from '../Sidebar/index';
+
 import {
     HeroContainer,
     HeroContent,
     HeroItems,
     HeroH1,
     HeroP,
-    HeroBtn
-  } from './Hero.styles';
+    HeroBtn,
+  } from './hero.styles';
 
 const Hero = () => {
 

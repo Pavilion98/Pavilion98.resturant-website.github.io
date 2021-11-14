@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './Navbar.styles';
+import { Nav, NavLink, NavIcon, Bars } from './navbar.styles';
 
 const Navbar = ({ toggle }) => {
     return (
