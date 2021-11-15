@@ -4,7 +4,7 @@ import { GlobalStyle } from './globalStyles';
 import { productData } from './components/Products/data';
 import { dishesData } from './components/Dishes/data';
 
-import Hero from './components/Hero/index';
+import Hero from './components/Hero';
 import Products from './components/Products';
 import Dishes from './components/Dishes';
 
