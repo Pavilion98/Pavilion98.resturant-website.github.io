@@ -1,6 +1,6 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-3.jpg';
+import product1 from '../../images/products/product-1.jpg';
+import product2 from '../../images/products/product-2.jpg';
+import product3 from '../../images/products/product-3.jpg';
 
 
 export const productData = [
@@ -30,5 +30,6 @@ export const productData = [
         ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
       price: '$14.99',
       button: 'Add to Cart'
-    }
+    },
+    
   ];
