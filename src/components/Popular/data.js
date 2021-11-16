@@ -3,7 +3,7 @@ import product2 from '../../images/products/product-2.jpg';
 import product3 from '../../images/products/product-3.jpg';
 
 
-export const productData = [
+export const popularData = [
     {
       img: product1,
       alt: 'Pizza',
@@ -30,6 +30,6 @@ export const productData = [
         ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
       price: '$14.99',
       button: 'Add to Cart'
-    },
-    
+    }
+  
   ];

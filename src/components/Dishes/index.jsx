@@ -14,7 +14,7 @@ import {
 const Dishes = ({data}) => {
   return (
     <DishesContainer>
-      <DishesHeading> Our Speciality </DishesHeading>
+      <DishesHeading> Our <span>Speciality</span> </DishesHeading>
       <DishesWrapper>
         {data.map((dish, index) => {
             return (
