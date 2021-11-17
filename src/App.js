@@ -10,6 +10,7 @@ import Hero from './components/Hero';
 import Dishes from './components/Dishes';
 import Popular from './components/Popular';
 import Steps from './components/Steps';
+import Feature from './components/Feature';
 
 
 const App = () => {
@@ -19,7 +20,9 @@ const App = () => {
       <Hero />
       <Dishes data={dishesData} />
       <Popular data={popularData} />
+      <Feature />
       <Steps data = {stepsData} />
+      
     </Router>
   );
 }
