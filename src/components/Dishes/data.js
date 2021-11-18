@@ -5,12 +5,12 @@ import Icon4 from '../../images/icons/s-4.png';
 import Icon5 from '../../images/icons/s-5.png';
 import Icon6 from '../../images/icons/s-6.png';
 
-import Img1 from '../../images/products/s-img-1.jpg';
-import Img2 from '../../images/products/s-img-2.jpg';
-import Img3 from '../../images/products/s-img-3.jpg';
-import Img4 from '../../images/products/s-img-4.jpg';
-import Img5 from '../../images/products/s-img-5.jpg';
-import Img6 from '../../images/products/s-img-6.jpg';
+import Img1 from '../../images/s-img-1.jpg';
+import Img2 from '../../images/s-img-2.jpg';
+import Img3 from '../../images/s-img-3.jpg';
+import Img4 from '../../images/s-img-4.jpg';
+import Img5 from '../../images/s-img-5.jpg';
+import Img6 from '../../images/s-img-6.jpg';
 
 
 

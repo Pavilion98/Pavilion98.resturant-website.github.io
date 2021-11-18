@@ -21,7 +21,7 @@ const Hero = () => {
 
     return (
         <HeroContainer>
-            <Navbar toggle={toggle} />
+            <Navbar toggle={toggle} /> 
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <HeroContent>
                 <HeroItems>

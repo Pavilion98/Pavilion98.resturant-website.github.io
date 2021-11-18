@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const DishesContainer = styled.div`
   min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
+  padding: 2.5rem calc((100vw - 1300px) / 2);
   background: #150f0f;
   color: #fff;
 `;
@@ -14,7 +14,7 @@ export const DishesHeading = styled.h1`
     font-size: clamp(2rem, 2.5vw, 3rem);
     padding: 1rem;
     color: #fff;
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 
     span {
       color: #e31837;
@@ -26,7 +26,7 @@ export const DishesWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0 2.5rem;
-  gap: 1rem;
+  gap: 3rem;
 `;
 
 

@@ -1,15 +1,42 @@
-import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './navbar.styles';
+import React, { useState } from 'react';
+import { Nav, NavLogo, MobileIcon, Bars, NavMenu, NavItem, NavLink } from './navbar.styles';
+import '../../App.css';
+
 
 const Navbar = ({ toggle }) => {
+    const [colorChange, setColorChange] = useState(false);
+
+    const changeColorOnScroll = () => {
+        if(window.scrollY > 0) {
+            setColorChange(true);
+        }
+        else{
+            setColorChange(false);
+        }
+    };
+    window.addEventListener('scroll', changeColorOnScroll);
+
     return (
         <>
-            <Nav>
-                <NavLink to="/"> Foodly </NavLink>
-                <NavIcon onClick={toggle}>
-                    <p>Menu</p>
+            <Nav className= {colorChange ? 'navbar color-change' : "navbar"}>
+                <NavLogo to="/"> Foodly </NavLogo>
+                <MobileIcon onClick={toggle}>
                     <Bars />
-                </NavIcon>
+                </MobileIcon>
+                <NavMenu>
+                    <NavItem>
+                        <NavLink to="speciality"> Speciality </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="popular"> Popular </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="featured"> Featured </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="review"> Review </NavLink>
+                    </NavItem>
+                </NavMenu>
             </Nav>   
         </>
     )

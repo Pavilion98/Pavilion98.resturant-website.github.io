@@ -4,7 +4,7 @@ import whiteImg from '../../images/home-bg.jpg'
 export const PopularContainer = styled.div`
   /* width: 100vw; */
   min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
+  padding: 2.5rem calc((100vw - 1300px) / 2);
   background: url(${whiteImg});
   color: #fff;
 `;
@@ -12,7 +12,7 @@ export const PopularContainer = styled.div`
 export const PopularHeading = styled.h1`
   font-size: clamp(2.2rem, 2.5vw, 3rem);
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
   color: #333;
 
   span {
@@ -29,7 +29,7 @@ export const PopularWrapper = styled.div`
 
 export const PopularCard = styled.div`
   margin: 0 2rem;
-  line-height: 2;
+  line-height: 1.5;
   width: 300px;
 `;
 
@@ -48,7 +48,7 @@ export const PopularInfo = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: .5rem;
   text-align: center;
 `;
 
