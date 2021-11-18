@@ -1,15 +1,13 @@
-import React, { useState } from 'react'
-import Navbar from '../Navbar/index';
-import Sidebar from '../Sidebar/index';
-
+import React, { useState } from 'react';
+import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
 import {
     HeroContainer,
     HeroContent,
     HeroItems,
     HeroH1,
     HeroP,
-    HeroBtn,
-  } from './hero.styles';
+    HeroBtn } from './hero.styles';
 
 const Hero = () => {
 
@@ -32,6 +30,6 @@ const Hero = () => {
             </HeroContent>
         </HeroContainer>
     )
-}
+};
 
 export default Hero;

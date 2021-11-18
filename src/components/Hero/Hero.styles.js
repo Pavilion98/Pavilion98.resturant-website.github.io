@@ -5,12 +5,11 @@ import ImgBg from '../../images/HeroBg.jpg';
 
 
 export const HeroContainer = styled.div`
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(${ImgBg});
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    
-    
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(${ImgBg});
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  
 `;
 
 export const HeroContent = styled.div`
@@ -33,6 +32,7 @@ export const HeroItems = styled.div`
   text-transform: uppercase;
   line-height: 1;
   font-weight: bold;
+  
   @media screen and (max-width: 650px) {
     width: 100%;
   }
