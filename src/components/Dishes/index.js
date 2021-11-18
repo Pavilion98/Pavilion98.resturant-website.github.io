@@ -9,7 +9,7 @@ import {
   BoxIcon,
   BoxH,
   BoxP,
-} from "./dishes.styles";
+} from "./DishesElements";
 
 const Dishes = ({data}) => {
   return (

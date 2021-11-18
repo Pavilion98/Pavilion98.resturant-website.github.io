@@ -10,7 +10,7 @@ import {
     PopularDesc,
     PopularPrice,
     PopularBtn
-  } from './popular.styles';
+  } from './PopularElements';
 
 const Popular = ({ data}) => {
     return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Nav, NavLogo, MobileIcon, Bars, NavMenu, NavItem, NavLink } from './navbar.styles';
+import { Nav, NavLogo, MobileIcon, Bars, NavMenu, NavItem, NavLink } from './NavbarElements';
 import '../../App.css';
 
 

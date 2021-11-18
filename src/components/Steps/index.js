@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepsContainer, StepsWrapper, StepsH1, StepBox, StepImg, StepHeading } from './steps.styles';
+import { StepsContainer, StepsWrapper, StepsH1, StepBox, StepImg, StepHeading } from './StepsElements';
 
 const Steps = ({ data }) => {
     return (

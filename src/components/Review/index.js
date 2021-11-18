@@ -8,7 +8,7 @@ import {
   BoxH3,
   Stars,
   BoxP,
-} from "./review.styles";
+} from "./ReviewElements";
 
 const Review = ({ data }) => {
   return (

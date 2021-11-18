@@ -7,7 +7,7 @@ import {
     HeroItems,
     HeroH1,
     HeroP,
-    HeroBtn } from './home.styles';
+    HeroBtn } from './HeroElements';
 
 const Home = () => {
 
