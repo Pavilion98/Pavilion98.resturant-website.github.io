@@ -7,9 +7,9 @@ import {
     HeroItems,
     HeroH1,
     HeroP,
-    HeroBtn } from './hero.styles';
+    HeroBtn } from './home.styles';
 
-const Hero = () => {
+const Home = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -32,4 +32,4 @@ const Hero = () => {
     )
 };
 
-export default Hero;
+export default Home;
